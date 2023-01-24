@@ -1,0 +1,16 @@
+### Ubuntu ###
+
+#Verify SSH key pair if exist
+ls -al ~/.ssh
+
+# Creating a new one
+ssh-keygen -t ed25519 -C "emanja1014@gmail.com"
+- same directory
+- maco...
+
+# Adding SSH-key to SSH-agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+
+ 

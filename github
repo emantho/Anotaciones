@@ -1,0 +1,9 @@
+## Gestionar repositorios de Github
+
+# Clonar repositorio desde terminal Linux
+git clone git@github.com:emantho/<nombre_repositorio>.git
+
+# 
+
+
+
